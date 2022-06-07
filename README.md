@@ -21,3 +21,8 @@
 // Prints "1+1=2" as an Error
 * int MyInt = 2;
 * UE_LOG(LogTemp, Error, TEXT("1+1=%i"), MyInt)
+
+
+# Get Viewport size (ex. 1920x1080)
+* FVector2D ViewportSize;
+* GEngine->GameViewport->GetViewportSize(ViewportSize); // Returns an FVector2D
