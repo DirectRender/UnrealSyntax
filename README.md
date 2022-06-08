@@ -12,7 +12,7 @@
 
 # Print Function - Displays on the screen ("Print" in BP)
 //A simple print  ({}, LifeTime, Color, Message)
-* GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Blue, TEXT("Hello World!");
+* GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Blue, TEXT("Hello World!"));
 
 # UE_LOG - Displays in the "Output Log"
 // Prints "Hello World" as an Warning
