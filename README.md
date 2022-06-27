@@ -26,3 +26,7 @@
 # Get Viewport size (ex. 1920x1080)
 * FVector2D ViewportSize;
 * GEngine->GameViewport->GetViewportSize(ViewportSize); // Returns an FVector2D
+
+# Exec (Debug/Development Console)
+* UFUNCTION(Exec) // Must be marked as "Exec"
+* void SetHealth(uint8 Health);
